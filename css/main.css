@@ -25,6 +25,16 @@ hr {
     padding: 0;
 }
 
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 audio,
 canvas,
 iframe,
@@ -56,14 +66,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: Mittelschrift;
+    src: url(din1451alt.ttf);
+}
+
+body {
+    font-family: Mittelschrift;
+}
 
 
+/* ============Side Bar Styles
+/* ===========================*/
 
+.side-bar{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    margin: 0 1em;
+}
 
+.side-bar h1 {
+    font-size: 3em;
+    line-height: 1em;
+}
 
+.side-bar h2 {
+    font-size: 2em;
+}
 
+.ui-accordion .ui-accordion-content {
+    overflow: auto;
+}
 
+.side-bar li {
+    margin-bottom: 1em;
+    font-size: 1.25em;
+}
 
+.side-bar-bottom {
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75em;
+}
 
 
 
