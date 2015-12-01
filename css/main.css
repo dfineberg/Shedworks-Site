@@ -83,8 +83,12 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 150px;
-    margin: 0 1em;
+    width: 200px;
+    margin: 0 1.5em;
+}
+
+.side-bar img {
+    width: 100%;
 }
 
 .side-bar h1 {
@@ -93,7 +97,7 @@ body {
 }
 
 .side-bar h2 {
-    font-size: 2em;
+    font-size: 1.25em;
 }
 
 .ui-accordion .ui-accordion-content {
@@ -102,7 +106,7 @@ body {
 
 .side-bar li {
     margin-bottom: 1em;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 .side-bar-bottom {
